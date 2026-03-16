@@ -7,6 +7,12 @@ header {
 	font-family: cambria;
 
 }
+
+.logo {
+    width: 65px;
+    height: 80px;
+    padding: 10px;
+}
 /*the dropbtn class can be used by all navbar buttons, and div class="dropdown" is needed to make a new button. 
 change background colors and font colors as necessary.*/
 .dropbtn {
