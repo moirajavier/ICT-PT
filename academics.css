@@ -81,22 +81,24 @@ change background colors and font colors as necessary.*/
 .dropdown:hover .dropbtn-1 {color: #000000;}
 
 Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
+ 
+.photo-collage img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin: 15px;
+    transition: 400ms;
+}
 
-div img {
- 	width: 400px;
- 	height: 300px;
- 	border: 2px solid #ff3d0036;
- 	border-radius: 13px;
- 	box-shadow: 4px 7px 7px 0px #00000042;
- 	cursor: pointer;
- 	margin: 10px;
- 	 transition: 400ms;
- }
- div img:hover { 
-  filter:grayscale(1);
-  transform:scale(1.03);
- }
-.photo-collage{
+.photo-collage img:hover { 
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+.photo-collage {
 	display:flex;
 	justify-content:center; /* centers the row */
 	flex-wrap:wrap; /* allows images to move to next line on small screens */
