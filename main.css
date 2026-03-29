@@ -8,13 +8,18 @@ header {
 
 }
 
-.logo {
-    position: absolute;
-	height: auto;
-	left: 0px;
-	width: 250px;
-	
+.navbar{
+    display:flex;
+    align-items:center;
+    background:#002147;
+    padding:10px;
 }
+
+.logo{
+    height:50px;
+    margin-right:20px;
+}
+
 /*the dropbtn class can be used by all navbar buttons, and div class="dropdown" is needed to make a new button. 
 change background colors and font colors as necessary.*/
 .dropbtn {
