@@ -8,16 +8,25 @@ header {
 
 }
 
+* NAVBAR LAYOUT FIX */
 .navbar{
     display:flex;
     align-items:center;
     background:#002147;
     padding:10px;
+    gap:5px;              /* spacing between menu items */
 }
 
+/* LOGO STYLE */
 .logo{
     height:50px;
-    margin-right:20px;
+    width:auto;
+    margin-right:25px;    /* space between logo and first menu button */
+}
+
+.navbar a{
+    display:flex;
+    align-items:center;
 }
 
 /*the dropbtn class can be used by all navbar buttons, and div class="dropdown" is needed to make a new button. 
