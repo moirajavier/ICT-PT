@@ -8,25 +8,26 @@ header {
 
 }
 
-* NAVBAR LAYOUT FIX */
+/* make navbar items align horizontally */
 .navbar{
     display:flex;
     align-items:center;
-    background:#002147;
-    padding:10px;
-    gap:5px;              /* spacing between menu items */
 }
 
-/* LOGO STYLE */
+/* remove inline-block so flexbox controls layout */
+.dropdown{
+    position: relative;
+}
+
+/* push menu items slightly away from logo */
+.dropdown{
+    margin-right:5px;
+}
+
+/* ensure logo stays at the far left */
 .logo{
     height:50px;
-    width:auto;
-    margin-right:25px;    /* space between logo and first menu button */
-}
-
-.navbar a{
-    display:flex;
-    align-items:center;
+    margin-right:25px;
 }
 
 /*the dropbtn class can be used by all navbar buttons, and div class="dropdown" is needed to make a new button. 
