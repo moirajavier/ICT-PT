@@ -1,16 +1,19 @@
 
 body {
   font-family: Verdana;
-}
-
+  background-image: url('faded_school_bg.png'); 
+  background-repeat: no-repeat;
+  background-size: 70% 60%; 
+} 
 header {
 	font-family: cambria;
-
 }
 
+.navbar {
+  background-color: white;
+  padding: 10px;
 /* make navbar items align horizontally */
-.navbar{
-    display:flex;
+	display:flex;
     align-items:center;
 }
 
@@ -78,6 +81,29 @@ change background colors and font colors as necessary.*/
 .dropdown:hover .dropbtn {color: #EEC312;}
 
 .dropdown:hover .dropbtn-1 {background-color: #b89609;}
+
+#Home {
+  text-align: right;
+}
+
+#Home div {
+  text-align: right;
+}
+#News {
+ text-align: right;
+} 
+
+#News div {
+  text-align: right;
+}
+
+#Programs {
+  text-align: right;
+}
+
+#Events {
+  text-align: right;
+} 
 
 .dropdown:hover .dropbtn-1 {color: #000000;}
 
