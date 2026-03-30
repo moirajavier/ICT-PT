@@ -11,14 +11,20 @@ header {
 
 }
 
-h1, h3 {
-    	text-align: center;
+h3 {
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
 }
 
 .departments {
   	border: 2px solid black;
   	border-radius: 13px;
   	box-shadow: 4px 7px 7px 7px 0px #00000042;
+	padding: 20px;
+	margin: 20px 40px;
 }
 
 .subjects {
@@ -26,6 +32,7 @@ h1, h3 {
     	border-radius:13px;
     	box-shadow:4px 7px 7px 0px #00000042;
     	width: 48%;
+	    padding: 20px;
 }
 
 .extracurriculars {
@@ -33,6 +40,7 @@ h1, h3 {
     	border-radius:13px;
     	box-shadow:4px 7px 7px 0px #00000042;
     	width: 48%;
+	    padding: 20px;
  }
 
 .subjects-extracurriculars{
